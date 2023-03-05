@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+
+body {
+    background: #0c1022;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 450px;
+    padding: 20px;
+    background: #253164;
+    border-radius: 10px;
+}
+
+main h1 {
+    margin-bottom: 10px;
+}
+
+main h2 {
+    margin-top: 10px;
+}
+
+form {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+form label, form input, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    padding: 10px;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    background: #0c1022;
+    color: #fff;
+    margin: 15px 0px 0px 0px;
+}
+
+.Tabela-IMC {
+    width: 100%;
+    display: none;
+    flex-direction: column;
+}
+
+.imc-resultado {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #fff;
+    color: #0c1022;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.imc {
+    width: 90%;
+}
+
+.resultado {
+    width: 90%;
+}
+
+.imc p, .resultado p {
+    margin: 10px 0px 10px 0px;
+}
+
+#bntRetorn {
+    margin-top: 10px;
+}
+
+.status {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    width: 100%;
+    color: black;
+    margin-top: 10px;
+}

@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    padding: 10px;
+    width: 400px;
+    height: 600px;
+    background-color: #023b6a;
+}
+
+main .display {
+    padding: 10px;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: solid red;
+}
+
+main .açoes {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sacar-valor,.Depositar-valor {
+    margin: 5px;
+}
+
+button {
+    width: 100px;
+}

@@ -1,0 +1,1 @@
+Aula sobre Métodos úteis para objetos;

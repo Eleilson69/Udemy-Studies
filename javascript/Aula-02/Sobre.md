@@ -1,0 +1,1 @@
+essa aula é sobre o exercicio que usa constantes e lets pra atribuir valores sem alterar o valor inicial;

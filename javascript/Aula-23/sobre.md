@@ -1,0 +1,1 @@
+Aula sobre Funções fábrica (Factory Functions);

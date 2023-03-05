@@ -1,0 +1,1 @@
+Essa aula e sobre calculo de IMC em javascript usando numeros é strings;

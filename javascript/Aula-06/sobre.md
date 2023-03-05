@@ -1,0 +1,1 @@
+Exercicio: usando funções arrays e objetos;

@@ -1,0 +1,1 @@
+este projeto usa o padrão MVC = Models views e controllers

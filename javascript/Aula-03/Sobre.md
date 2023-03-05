@@ -1,0 +1,1 @@
+está aula é sobre a resolção de um exercicio baseado em strings e metodos de strings;

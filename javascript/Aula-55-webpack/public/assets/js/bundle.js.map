@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":"AAGAA,QAAQC,IAFK,YACK,SACS,mBAHb,GAGiC","sources":["webpack://aula-55/./src/index.js"],"sourcesContent":["const idade = 23;\nconst nome = 'Elleylson';\nconst sobrenome = 'santos'\nconsole.log(nome, sobrenome , `eu tenho ${idade} de idade`);"],"names":["console","log"],"sourceRoot":""}

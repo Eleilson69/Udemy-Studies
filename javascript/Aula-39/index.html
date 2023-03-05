@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conta</title>
+</head>
+<body>
+    <main>
+        <div class="display">
+            <p id="display-Saldo">SaldoR$0.00</p>
+            <p>Ultimo Deposito R$0.00</p>
+            <p>Ultimo Saque R$0.00</p>
+        </div>
+        <div class="açoes">
+            <div class="sacar-valor">
+                <input
+                    type="number"
+                    name="Sacar"
+                    id="sacar"
+                >
+                <button id="bnt-sacar">Sacar</button>
+            </div>
+            <div class="Depositar-valor">
+                <input
+                    type="number"
+                    name="Depositar"
+                    id="Depositar"
+                >
+                <button id="bnt-depositar">Depositar</button>
+            </div>
+            <button id="ver-valor">Ver saldo</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
